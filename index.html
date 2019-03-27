@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Documento</title>
+
+	<link rel="stylesheet" type="text/css" href="jqm/jquery.mobile-1.4.5.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<script type="text/javascript" src="jquery-2.1.3.min.js"></script>
+	<script type="text/javascript" src="jqm/jquery.mobile-1.4.5.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+
+
+
+
+<div data-role="page" id="inicio">
+
+	<div data-role="header">
+		<h1>PhoneGap</h1>
+	</div>
+
+
+
+	<div role="main" class="ui-content">
+		<img src="images/phonegap.png" width="100%">
+		<ul data-role="listview">
+		    <li><a href="#historia">Historia</a></li>
+		    <li><a href="#about">¿Que es?</a></li>
+		    <li><a href="#caracteristicas">Caracteristicas</a></li>
+		</ul>
+
+<!-- 
+		<small><strong>Instrucciones:</strong> Con base al ejemplo realizado en clase, app1 "Hola Mundo", elabora una aplicación que realice lo siguiente:</small>
+
+		<ol>
+			<li>Header:  PhoneGap</li>
+			<li>Content:</li>
+			<ul>
+				<li>Imagen de PhoneGap</li>
+				<li>Pagina:  Historia</li>
+				<li>Pagina:  ¿Qué es PhoneGap?</li>
+				<li>Pagina:  Características</li>
+			</ul>
+			<li>Footer:  Nombre Apellido - Marzo 2019</li>
+		</ol>
+		<small>Cada opción deberá llevarte a otra página en donde agregues una imagen relacionada con la información requerida. Agrega una imagen para el icono de la aplicación.</small> -->
+	</div>
+
+	<div data-role="footer" data-position="fixed">
+	<h3>Jonathan R. Magallanes M. - Marzo 2019</h3>
+	</div>
+</div>
+<!-- Pagina Historia -->
+<div data-role="page" id="historia">
+
+	<div data-role="header">
+		<a href="#inicio">Regresar</a>
+		<h1>Historia</h1>
+	</div>
+
+	<div role="main" class="ui-content">
+		<img src="images/phonegap2.png" width="100%">
+
+		<p>Adobe PhoneGap es un framework para el desarrollo de aplicaciones móviles producido por Nitobi, y comprado posteriormente por Adobe Systems.3​4​ Principalmente, PhoneGap permite a los programadores desarrollar aplicaciones para dispositivos móviles utilizando herramientas genéricas tales como JavaScript, HTML5 y CSS3. Las aplicaciones resultantes son híbridas, es decir que no son realmente aplicaciones nativas al dispositivo (ya que el renderizado se realiza mediante vistas web y no con interfaces gráficas específicas de cada sistema), pero no se tratan tampoco de aplicaciones web (teniendo en cuenta que son aplicaciones que son empaquetadas para poder ser desplegadas en el dispositivo incluso trabajando con el API del sistema nativo).</p>
+		<p>En la tercera versión de PhoneGap se incorpora el uso de una interfaz de comandos a través de consola, una nueva arquitectura de complementos descentralizados y la posibilidad de utilizar un código web unificado para crear múltiples proyectos.</p>
+	</div>
+
+	<div data-role="footer" data-position="fixed">
+	<h3>Jonathan R. Magallanes M. - Marzo 2019</h3>
+	</div>
+</div><!-- Fin Pagina Historia -->
+
+<!-- Pagina Que es -->
+<div data-role="page" id="about">
+
+	<div data-role="header">
+		<a href="#inicio">Regresar</a>
+		<h1>¿Qué es PhoneGap?</h1>
+	</div>
+
+	<div role="main" class="ui-content">
+		<img src="images/phonegap3.png" width="100%">
+
+		<p>Phonegap es un framework creado por Nitobi, el cual ahora es propiedad de Adobe, este brinda la posibilidad de desarrollar aplicaciones multiplataformas o híbridas de manera gratuita utilizando las tecnologías web como Html5, Css3 y JavaScript, también nos permite integrarlo con Jquery Mobile y muchas otras librerías que se requiera integrar a un proyecto. Las aplicaciones híbridas llevan una gran ventaja sobre las nativas, y esto se debe a que pueden ser usadas en cualquier dispositivos inteligentes,  aunque  estos posean diferentes sistemas operativos, lo cual es la principal desventaja de las aplicaciones nativas</p>
+	</div>
+
+	<div data-role="footer" data-position="fixed">
+	<h3>Jonathan R. Magallanes M. - Marzo 2019</h3>
+	</div>
+</div><!-- Fin Pagina Que es -->
+
+<!-- Pagina Caracteristicas -->
+<div data-role="page" id="caracteristicas">
+
+	<div data-role="header">
+		<a href="#inicio">Regresar</a>
+		<h1>¿Qué es PhoneGap?</h1>
+	</div>
+
+	<div role="main" class="ui-content">
+		<img src="images/phonegap4.jpg" width="100%">
+
+		<p>Dentro de las principales características de Phonegap, nos encontramos una serie de Apis para controlar los diferentes recursos del dispositivo como lo son:</p>
+
+		<ol>
+			<li>Cámara</li>
+			<li>Acelerómetro</li>
+			<li>GPS</li>
+			<li>Notificaciones</li>
+			<li>Sistema de ficheros</li>
+			<li>Compas</li>
+			<li>Media</li>
+		</ol>
+		
+	</div>
+
+	<div data-role="footer" data-position="fixed">
+	<h3>Jonathan R. Magallanes M. - Marzo 2019</h3>
+	</div>
+</div><!-- Fin Pagina Caracteristicas -->
+</body>
+</html>

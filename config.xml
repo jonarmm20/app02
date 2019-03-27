@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.phonegap.app02"
+    versionCode = "10"
+    version     = "1.0.0" >
+
+<name>PhoneGap-Jonthan</name>
+
+<description>
+Tarea
+</description>
+
+<author email="jonarmm20@gmail.com">
+Jonathan Raymundo Magallanes Martinez
+</author>
+
+<icon src="images/observatorio.png" gap:density="ldpi" gap:platform="android" />
+<icon src="images/observatorio.png" gap:density="mdpi" gap:platform="android" />
+<icon src="images/observatorio.png" gap:density="hdpi" gap:platform="android" />
+<icon src="images/observatorio.png" gap:density="xhdpi" gap:platform="android" />
+
+</widget>
